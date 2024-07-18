@@ -1,0 +1,76 @@
+.app-container{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.bg-container{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+}
+.destination-heading{
+    font-size: 30px;
+    font-family: roboto;
+    font-weight: bold;
+}
+.search-container{
+    display: flex;
+    flex-direction: row;
+    width: 800px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color:azure;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 10px;
+    border: none;
+}
+.search-icon{
+    height: 20px;
+    width: 20px;
+}
+.search-input{
+    border: none;
+    cursor: pointer;
+    background-color: transparent;
+    outline: none;
+    flex-grow: 1;
+}
+.destination-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: 0px;
+    padding: 0px;
+}
+.loader-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    margin-top: 20px;
+  }
+  .search-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color:transparent;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  .no-movies-found{
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .text{
+    font-weight: bold;
+    font-family: roboto;
+    font-size: 40px;
+  }
